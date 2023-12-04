@@ -1,0 +1,38 @@
+/* Добавляем новые стили для анимации отдаления */
+@keyframes shrinkAndMove {
+    0% {
+        transform: scale(1);
+        top: -100px;
+        left: 0;
+        transform-origin: center; /* Центрирование точки трансформации */
+    }
+    100% {
+
+        transform: scale(0.5); /* уменьшить до 50% */
+        top: -500px; /* центрирование по вертикали */
+        left: -1000px; /* центрирование по горизонтали */
+
+        transform-origin: center; /* Центрирование точки трансформации */
+    }
+}
+
+.full-screen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200vw;
+    height: 200vh; /* Используем полную высоту экрана */
+    background-size: contain;
+    background-position: center;
+    background-image: url("333.jpg");
+    animation: shrinkAndMove 3s forwards;
+    z-index: 999;
+}
+
+.shrinked-image {
+    width: 1920px;
+    height: 300px;
+    background-size: cover;
+    background-image: url("333.jpg");
+    transition: transform 2s ease-in-out;
+}

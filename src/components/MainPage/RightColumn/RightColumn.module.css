@@ -1,0 +1,48 @@
+.RightColumn {
+    float: right;
+    width: 253px;
+    min-height: 500px;
+    margin-right: 420px;
+    margin-top: 40px;
+    padding: 4px;
+    border-radius: 11px; /* Скругление углов */
+    position: relative;
+    z-index: 0
+}
+.pStyle {
+    font-size: 18px; /* Размер текста */
+    color: #333; /* Цвет текста */
+    line-height: 1.6; /* Межстрочный интервал */
+    padding: 10px; /* Отступы вокруг текста */
+    border: 2px solid #999; /* Обводка */
+    border-radius: 8px; /* Скругление углов */
+    background-color: #f9f9f9; /* Цвет фона */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+
+
+.firstParagraph {
+    font-size: 22px; /* Размер текста */
+    color: #FF0000; /* Новый цвет текста (оранжевый) */
+    line-height: 1.6; /* Межстрочный интервал */
+    padding: 10px; /* Отступы вокруг текста */
+    border: 2px solid #4682b4; /* Новый цвет обводки (синий) */
+    border-radius: 8px; /* Скругление углов */
+    background-color: #f9f9f9; /* Новый цвет фона (желтый) */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Новая тень */
+}
+
+.firstParagraph:hover{
+    background-color: #f9f9f9; /* Новый цвет фона (желтый) */
+
+}
+
+.tagLink{
+    text-decoration: none; /* Убирает подчеркивание по умолчанию для ссылок */
+}
+
+.tagLink:hover{
+    text-decoration: none; /* Убирает подчеркивание по умолчанию для ссылок */
+}
+

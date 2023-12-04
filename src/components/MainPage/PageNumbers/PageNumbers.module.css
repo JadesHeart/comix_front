@@ -1,0 +1,41 @@
+/* Pagination.css */
+
+.numbersBlock {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   margin-right:600px ;
+    margin-top: -90px;
+}
+
+.pagination li {
+    margin-right: 5px;
+}
+
+.pagination li a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.pagination li a:hover {
+    text-decoration: none; /* Убирает подчеркивание при наведении курсора */
+
+    background-color: #ddd;
+}

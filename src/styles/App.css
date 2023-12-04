@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #242424;
+}
+
+/*#root {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.App {*/
+/*    width: 800px;*/
+/*}*/
+
+/*.post {*/
+/*    display: flex;*/
+/*    padding: 20px;*/
+/*    border: 2px solid teal;*/
+/*    margin-top: 15px;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+/*.post {*/
+/*    background-color: #f4f4f4;*/
+/*    border: 1px solid #e0e0e0;*/
+/*    padding: 20px;*/
+/*    margin-bottom: 20px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.post__content {*/
+/*    color: #333;*/
+/*}*/
+
+/*.post__content strong {*/
+/*    font-size: 20px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.post__content > div {*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.post__btns {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.post__btns button {*/
+/*    padding: 8px 16px;*/
+/*    background-color: #ff4d4d;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s;*/
+/*}*/
+
+/*.post__btns button:hover {*/
+/*    background-color: #e60000;*/
+/*}*/
+
+/*.container {*/
+/*    width: 1200px;*/
+/*    margin: 0 auto;*/
+/*}*/
+/*.header {*/
+/*    width: 1200px;*/
+/*    height: 200px;*/
+/*    background-color: #e0e0e0; !* Цвет фона шапки *!*/
+/*}*/
+/*.main-content {*/
+/*    padding-top: 20px;*/
+/*    overflow: hidden; !* Контейнер, чтобы фиксировать высоту содержимого *!*/
+/*}*/
+/*.left-column {*/
+/*    float: left;*/
+/*    width: 930px;*/
+/*    height: 2078px;*/
+/*    background-color: #f0f0f0; !* Цвет фона левого блока *!*/
+/*}*/
+/*.right-column {*/
+/*    float: right;*/
+/*    width: 253px;*/
+/*    height: 2078px;*/
+/*    background-color: #d0d0d0; !* Цвет фона правого блока *!*/
+
+/*}*/

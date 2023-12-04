@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.adminHeader {
+    width: 1920px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.adminHeaderIMG {
+    width: 16%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.adminRightColumnIMG {
+    width: 60%;
+    height: 60%;
+    margin-left: 500px;
+
+}
+
+.reqForm {
+    margin-bottom: 200px;
+    width: 800px;
+    height: 320px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.reqFormComix {
+    margin-bottom: 200px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.formName {
+    color: red;
+    margin-left: 25px;
+    margin-bottom: 5px;
+
+}
+
+.reqFormComix input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    width: 97%;
+    color: white;
+}
+
+.reqFormComix button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.reqFormComix button:hover {
+    background-color: #0056b3;
+}
+
+/* admin.module.css */
+.formName {
+    color: red;
+    margin-left: 25px;
+    margin-bottom: 5px;
+
+}
+
+.reqForm input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    width: 97%;
+    color: white;
+}
+
+.reqForm select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+    width: 97%;
+    color: white; /* Цвет текста */
+    font-size: 14px; /* Размер шрифта */
+    outline: none; /* Убираем обводку при фокусе */
+    background-color: #007bff;
+
+}
+
+.reqForm option {
+    background-color: #007bff;
+
+    padding: 8px;
+    color: white; /* Цвет текста */
+    font-size: 14px; /* Размер шрифта */
+}
+
+
+.reqForm button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.reqForm button:hover {
+    background-color: #0056b3;
+}
+
+.errorMessage {
+    color: white;
+    background-color: #242424;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.serverResponse {
+    color: white;
+    background-color: #242424;
+    border: 1px solid #ccc;
+    margin: 10px;
+
+}
+

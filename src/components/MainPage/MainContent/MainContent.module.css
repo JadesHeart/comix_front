@@ -1,0 +1,4 @@
+.MainContent {
+    padding-top: 20px;
+    overflow: hidden; /* Контейнер, чтобы фиксировать высоту содержимого */
+}
